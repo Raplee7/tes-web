@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Web 8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section id="home">
+        <nav>
+            <a href="#" class="logo">TEST WEB 8</a>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="toggle"></div>
+        </nav>
+
+
+        <div class="text-container">
+            <p>HELLO,</p>
+            <p>I'M RAPLEE</p>
+            <p>Mahasiswa</p>
+            <button class="hire-btn">Hire Me</button>
+            <button class="down-cv">Download CV</button>
+        </div>
+        <img src="img/saya.png" class="model">
+    </section>
+
+
+    <div class="about-container" id="about">
+        <img src="img/about.png" alt="">
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Mahasiswa</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam dignissimos molestiae in provident qui earum dolorem, nobis maxime odio corrupti ipsam, </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ducimus? Harum eius magni adipisci reiciendis maiores et suscipit veritatis quo, ex minus voluptate ducimus.</p>
+            <button>Hire Me</button>
+            <button>Download CV</button>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <div class="services-text">
+            <p>Services</p>
+            <p>Services Required</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis sit deleniti consequatur deserunt ullam! Et suscipit dolorum sint quis, dolor ut voluptatibus quo delectus doloremque, at ipsam totam esse distinctio.</p>
+        </div>
+        <div class="box-container">
+            <div class="box-1">
+            <span>1</span>
+            <p class="heading">Web Design</p>
+            <p class="details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla in nostrum saepe possimus facilis? Aut ipsum beatae a totam explicabo!</p>
+            <p></p>
+            <button>Read More</button>
+            </div>
+            <div class="box-2">
+            <span>1</span>
+            <p class="heading">Web Development</p>
+            <p class="details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla in nostrum saepe possimus facilis? Aut ipsum beatae a totam explicabo!</p>
+            <p></p>
+            <button>Read More</button>
+            </div>
+            <div class="box-3">
+            <span>1</span>
+            <p class="heading">Power Point</p>
+            <p class="details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla in nostrum saepe possimus facilis? Aut ipsum beatae a totam explicabo!</p>
+            <p></p>
+            <button>Read More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact-me" id="contact">
+        <p>If You Have Any Project In Your Mind</p>
+        <button>Contact Me</button>
+    </div>
+
+    <footer>
+        <p>TEST WEB 7</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rem dignissimos voluptatem, aspernatur earum fuga?</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">Copyright by RAPLEE</p>
+    </footer>
+            <div class="a-social-b">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+<script type="text/javascript" src="jquery.js" ></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    })
+    </script>            
+
+</body>
+</html>
